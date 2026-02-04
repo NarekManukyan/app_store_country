@@ -1,7 +1,9 @@
 ## 0.0.2
 
 * Package README: add badges (Pub Version, License, Platform).
-* Documentation and example README updates.
+* README installation example updated to `^0.0.2`.
+* Example README: badges, platform support wording, and API table aligned with current behavior (Android returns null/false, no throw).
+* No API or behavior changes; documentation and metadata only.
 
 ## 0.0.1
 

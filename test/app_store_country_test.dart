@@ -9,7 +9,7 @@ class MockAppStoreCountryPlatform
     implements AppStoreCountryPlatform {
 
   @override
-  Future<String?> getPlatformVersion() => Future.value('42');
+  Future<String?> getCountryCode() => Future.value('USA');
 }
 
 void main() {
@@ -20,10 +20,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    AppStoreCountry appStoreCountryPlugin = AppStoreCountry();
-    MockAppStoreCountryPlatform fakePlatform = MockAppStoreCountryPlatform();
-    AppStoreCountryPlatform.instance = fakePlatform;
-
-    expect(await appStoreCountryPlugin.getPlatformVersion(), '42');
+    expect(await AppStoreCountry.getCountryCode(), 'USA');
   });
 }
