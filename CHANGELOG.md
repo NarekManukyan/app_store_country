@@ -1,3 +1,8 @@
+## 0.0.2
+
+* Package README: add badges (Pub Version, License, Platform).
+* Documentation and example README updates.
+
 ## 0.0.1
 
 * Initial release.

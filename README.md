@@ -1,5 +1,9 @@
 # app_store_country
 
+[![Pub Version](https://img.shields.io/pub/v/app_store_country)](https://pub.dev/packages/app_store_country)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-iOS-lightgrey)](https://flutter.dev)
+
 A Flutter plugin that returns the Apple App Store **storefront** country code (ISO-3166 alpha-3) on iOS using StoreKit. Use it to gate external payment options (e.g. Stripe) by storefront while staying within App Store rules.
 
 - **iOS**: Returns the storefront country (e.g. `"USA"`, `"DEU"`) via StoreKit. Returns `null` if the storefront is unavailable.
@@ -13,7 +17,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  app_store_country: ^0.0.1
+  app_store_country: ^0.0.2
 ```
 
 Then run `flutter pub get`.
